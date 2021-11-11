@@ -18,7 +18,7 @@ class Context {
             console.log("connected to db successfully");
         });
         this.mongooseInstance = mongoose.connect(
-            "SKLZDSDSFG_8437843Y592384YSDJKVFH*&^(*&#@(*&@(SDFHSOKDFHAOSDIFHSDAOASDFHSUFDISHDFAISDUFG)))"
+            "mongodb+srv://root:fm6RgqaN6zZIoWey@seoblog.qvxum.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         );
         return this.mongooseInstance;
     }
