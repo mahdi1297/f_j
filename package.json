@@ -7,8 +7,8 @@
         "node": "14.x"
     },
     "scripts": {
-        "start": "tsc && node dist/app.js",
-        "build": "ts-node index.ts",
+        "start": "node ./script/index.js",
+        "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
