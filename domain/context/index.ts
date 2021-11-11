@@ -18,7 +18,7 @@ class Context {
             console.log("connected to db successfully");
         });
         this.mongooseInstance = mongoose.connect(
-            `${process.env.MONGODB_CONNECTION_STRING}`
+            "SKLZDSDSFG_8437843Y592384YSDJKVFH*&^(*&#@(*&@(SDFHSOKDFHAOSDIFHSDAOASDFHSUFDISHDFAISDUFG)))"
         );
         return this.mongooseInstance;
     }
