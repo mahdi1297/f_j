@@ -1,16 +1,15 @@
 {
     "name": "backend",
     "version": "1.0.0",
+    "description": "",
     "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "start": "node index.ts",
-        "build": "tsc",
-        "postinstall": "npm run build"
-    },
     "engines": {
-        "node": "12.11.1",
-        "npm": "6.14.8"
+        "node": "14.x"
+    },
+    "scripts": {
+        "start": "node /script/index.ts",
+        "build": "ts-node index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
@@ -44,6 +43,5 @@
         "@types/node": "^16.9.4",
         "ts-node": "^10.4.0",
         "typescript": "^4.4.4"
-    },
-    "description": ""
+    }
 }
