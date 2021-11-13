@@ -1,0 +1,32 @@
+@font-face {
+  font-family: shabnam;
+  src: url("./fonts/Shabnam.eot") format("eot");
+  src: url("./fonts/Shabnam.ttf") format("trutype");
+  src: url("./fonts/Shabnam.woff") format("woff");
+}
+@font-face {
+  font-family: shabnam-bold;
+  src: url("./fonts/Shabnam-Bold.eot") format("eot");
+  src: url("./fonts/Shabnam-Bold.ttf") format("trutype");
+  src: url("./fonts/Shabnam-Bold.woff") format("woff");
+}
+
+p,
+a,
+input,
+li,
+ul,
+span,
+div,
+label {
+  font-family: shabnam !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: shabnam-bold !important;
+}

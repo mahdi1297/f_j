@@ -1,0 +1,22 @@
+.filter-btn {
+  display: none !important;
+}
+@media (max-width: 1213px) {
+  .md-d-none {
+    display: none !important;
+  }
+  .filter-btn {
+    display: flex !important;
+  }
+  .main {
+    width: 50% !important;
+  }
+}
+@media (max-width: 991px) {
+  .content {
+    display: none !important;
+  }
+  .content.content-block {
+    display: block !important;
+  }
+}

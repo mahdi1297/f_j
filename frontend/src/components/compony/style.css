@@ -1,0 +1,11 @@
+.compony-item-subs > div {
+  width: 28%;
+  margin-left: 4%;
+  background: #e0ebfc;
+  color: #4e83cd;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

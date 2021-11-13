@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap"); /* @font-face {
+  font-family: shabnam;
+  src: url("./fonts/Shabnam.eot") format("eot");
+  src: url("./fonts/Shabnam.ttf") format("trutype");
+  src: url("./fonts/Shabnam.woff") format("woff");
+}
+@font-face {
+  font-family: shabnam-bold;
+  src: url("./fonts/Shabnam-Bold.eot") format("eot");
+  src: url("./fonts/Shabnam-Bold.ttf") format("trutype");
+  src: url("./fonts/Shabnam-Bold.woff") format("woff");
+} */
+
+p,
+a,
+input,
+li,
+ul,
+span,
+div,
+label {
+  font-family: "Cairo", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  direction: rtl !important;
+  font-weight: 400;
+  text-align: right !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cairo", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  direction: rtl !important;
+  font-weight: 600;
+  text-align: right !important;
+}
+
+.b-t-l {
+  border-top: 1px solid #e8e8e8;
+}
+.b-l {
+  border: 1px solid #e8e8e8;
+}

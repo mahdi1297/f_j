@@ -1,0 +1,23 @@
+.blue-btn {
+  background: #eee;
+  color: #7366ff;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red-btn {
+  background: #eee;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-item {
+  margin-bottom: 70px;
+}
+.list-footer > div {
+  height: 50px;
+}

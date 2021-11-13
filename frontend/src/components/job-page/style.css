@@ -1,0 +1,18 @@
+.radius-top {
+  border-radius: 10px 10px 0px 0 !important;
+}
+.small-image {
+  position: relative;
+  top: -60px;
+  right: 0px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.h1__componyname {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -60px;
+  font-size: 20px;
+  right: 20px;
+}

@@ -1,0 +1,15 @@
+.nav-pills {
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-pills a {
+  color: #404040;
+}
+
+.nav-item.nav-link.active {
+  background: #fff !important;
+  color: #404040 !important;
+  border-radius: 0 !important;
+  color: blue;
+  border-bottom: 3px solid #7366ff;
+}
